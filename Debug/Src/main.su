@@ -1,0 +1,21 @@
+C:/Users/uliss/Documents/Proyecto integrador/Programación/STM32/F4_chip_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	16	static
+../Src/main.c:105:13:DWT_init	4	static
+../Src/main.c:111:6:inicializar_uarts	8	static
+../Src/main.c:119:13:iwdg_init	4	static
+../Src/main.c:129:13:respuesta_valida	40	static
+../Src/main.c:146:13:modbus_transaccion	32	static
+../Src/main.c:172:6:inicializar_drivers	16	static
+../Src/main.c:193:6:inicializar_control	8	static
+../Src/main.c:205:6:calibracion	8	static
+../Src/main.c:215:6:prioridades_de_interrupcion	8	static
+../Src/main.c:221:6:leer_drivers	24	static
+../Src/main.c:250:6:escribir_drivers	40	static
+../Src/main.c:289:7:lectura_bateria	16	static
+../Src/main.c:297:6:robot_arrancar	4	static,ignoring_inline_asm
+../Src/main.c:307:6:robot_parar	4	static,ignoring_inline_asm
+../Src/main.c:314:13:leer_linea	16	static
+../Src/main.c:338:13:procesar_comando	8	static
+../Src/main.c:351:13:telemetria	240	static
+../Src/main.c:400:5:main	8	static
+../Src/main.c:432:6:USART3_IRQHandler	16	static
+../Src/main.c:458:6:TIM2_IRQHandler	16	static

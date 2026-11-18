@@ -1,0 +1,66 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (14.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Src/I2C.c \
+../Src/IMU.c \
+../Src/KalmanFilter.c \
+../Src/ZLAC8015.c \
+../Src/adc.c \
+../Src/control.c \
+../Src/leds_indicadores.c \
+../Src/main.c \
+../Src/syscalls.c \
+../Src/sysmem.c \
+../Src/system_stm32f4xx.c \
+../Src/systick.c \
+../Src/tim.c \
+../Src/uart.c 
+
+OBJS += \
+./Src/I2C.o \
+./Src/IMU.o \
+./Src/KalmanFilter.o \
+./Src/ZLAC8015.o \
+./Src/adc.o \
+./Src/control.o \
+./Src/leds_indicadores.o \
+./Src/main.o \
+./Src/syscalls.o \
+./Src/sysmem.o \
+./Src/system_stm32f4xx.o \
+./Src/systick.o \
+./Src/tim.o \
+./Src/uart.o 
+
+C_DEPS += \
+./Src/I2C.d \
+./Src/IMU.d \
+./Src/KalmanFilter.d \
+./Src/ZLAC8015.d \
+./Src/adc.d \
+./Src/control.d \
+./Src/leds_indicadores.d \
+./Src/main.d \
+./Src/syscalls.d \
+./Src/sysmem.d \
+./Src/system_stm32f4xx.d \
+./Src/systick.d \
+./Src/tim.d \
+./Src/uart.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Src/%.o Src/%.su Src/%.cyclo: ../Src/%.c Src/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -DSTM32F446xx -c -I../Inc -I"C:/Users/uliss/Documents/Proyecto integrador/Programación/STM32/F4_chip_headers/CMSIS/Include" -I"C:/Users/uliss/Documents/Proyecto integrador/Programación/STM32/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-Src
+
+clean-Src:
+	-$(RM) ./Src/I2C.cyclo ./Src/I2C.d ./Src/I2C.o ./Src/I2C.su ./Src/IMU.cyclo ./Src/IMU.d ./Src/IMU.o ./Src/IMU.su ./Src/KalmanFilter.cyclo ./Src/KalmanFilter.d ./Src/KalmanFilter.o ./Src/KalmanFilter.su ./Src/ZLAC8015.cyclo ./Src/ZLAC8015.d ./Src/ZLAC8015.o ./Src/ZLAC8015.su ./Src/adc.cyclo ./Src/adc.d ./Src/adc.o ./Src/adc.su ./Src/control.cyclo ./Src/control.d ./Src/control.o ./Src/control.su ./Src/leds_indicadores.cyclo ./Src/leds_indicadores.d ./Src/leds_indicadores.o ./Src/leds_indicadores.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/system_stm32f4xx.cyclo ./Src/system_stm32f4xx.d ./Src/system_stm32f4xx.o ./Src/system_stm32f4xx.su ./Src/systick.cyclo ./Src/systick.d ./Src/systick.o ./Src/systick.su ./Src/tim.cyclo ./Src/tim.d ./Src/tim.o ./Src/tim.su ./Src/uart.cyclo ./Src/uart.d ./Src/uart.o ./Src/uart.su
+
+.PHONY: clean-Src
+

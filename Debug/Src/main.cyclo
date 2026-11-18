@@ -1,0 +1,21 @@
+C:/Users/uliss/Documents/Proyecto integrador/Programación/STM32/F4_chip_headers/CMSIS/Include/core_cm4.h:1816:22:__NVIC_SetPriority	2
+../Src/main.c:105:13:DWT_init	1
+../Src/main.c:111:6:inicializar_uarts	1
+../Src/main.c:119:13:iwdg_init	1
+../Src/main.c:129:13:respuesta_valida	8
+../Src/main.c:146:13:modbus_transaccion	7
+../Src/main.c:172:6:inicializar_drivers	3
+../Src/main.c:193:6:inicializar_control	1
+../Src/main.c:205:6:calibracion	2
+../Src/main.c:215:6:prioridades_de_interrupcion	1
+../Src/main.c:221:6:leer_drivers	6
+../Src/main.c:250:6:escribir_drivers	6
+../Src/main.c:289:7:lectura_bateria	1
+../Src/main.c:297:6:robot_arrancar	1
+../Src/main.c:307:6:robot_parar	1
+../Src/main.c:314:13:leer_linea	7
+../Src/main.c:338:13:procesar_comando	5
+../Src/main.c:351:13:telemetria	6
+../Src/main.c:400:5:main	1
+../Src/main.c:432:6:USART3_IRQHandler	9
+../Src/main.c:458:6:TIM2_IRQHandler	5

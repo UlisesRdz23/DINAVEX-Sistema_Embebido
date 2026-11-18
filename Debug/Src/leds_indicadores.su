@@ -1,0 +1,3 @@
+../Src/leds_indicadores.c:16:6:leds_init	4	static
+../Src/leds_indicadores.c:35:6:leds_indicadores	16	static
+../Src/leds_indicadores.c:45:6:secuencia_buzzer	16	static

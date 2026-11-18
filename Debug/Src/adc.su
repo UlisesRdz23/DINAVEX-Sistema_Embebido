@@ -1,0 +1,4 @@
+../Src/adc.c:22:6:adc1_init	4	static
+../Src/adc.c:48:6:start_conversion	4	static
+../Src/adc.c:53:10:adc_read	4	static
+../Src/adc.c:60:10:adc_leer_canal	16	static

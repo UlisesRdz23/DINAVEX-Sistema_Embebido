@@ -1,0 +1,14 @@
+../Src/IMU.c:19:16:BH_BL	24	static
+../Src/IMU.c:26:6:IMU_init	16	static
+../Src/IMU.c:50:9:IMU_who_am_i	16	static
+../Src/IMU.c:63:6:IMU_read	8	static
+../Src/IMU.c:67:6:IMU_calibrate_gyro	40	static
+../Src/IMU.c:94:7:IMU_get_ax	16	static
+../Src/IMU.c:100:7:IMU_get_ay	16	static
+../Src/IMU.c:106:7:IMU_get_az	16	static
+../Src/IMU.c:112:7:IMU_get_gx	8	static
+../Src/IMU.c:116:7:IMU_get_gy	8	static
+../Src/IMU.c:120:7:IMU_get_gz	8	static
+../Src/IMU.c:124:7:IMU_get_temp	8	static
+../Src/IMU.c:128:9:IMU_get_az_raw	8	static
+../Src/IMU.c:132:7:IMU_get_pitch	32	static

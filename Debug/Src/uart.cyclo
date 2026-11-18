@@ -1,0 +1,19 @@
+C:/Users/uliss/Documents/Proyecto integrador/Programación/STM32/F4_chip_headers/CMSIS/Include/core_cm4.h:1688:22:__NVIC_EnableIRQ	2
+../Src/uart.c:47:5:__io_putchar	3
+../Src/uart.c:56:6:uart2_rxtx_init	1
+../Src/uart.c:95:6:uart2_rx_interrupt_init	1
+../Src/uart.c:102:6:uart3_rxtx_init	1
+../Src/uart.c:141:6:uart3_rx_interrupt_init	1
+../Src/uart.c:148:6:uart2_tx_init	1
+../Src/uart.c:177:6:uart2_read	2
+../Src/uart.c:184:6:uart3_read	2
+../Src/uart.c:191:6:uart2_write	2
+../Src/uart.c:198:6:uart3_write	2
+../Src/uart.c:205:6:uart_printf	1
+../Src/uart.c:211:6:dma1_stream6_init	2
+../Src/uart.c:247:6:dma1_stream6_ocupado	1
+../Src/uart.c:252:6:dma1_stream6_enviar	3
+../Src/uart.c:272:6:dma1_stream5_rx_init	2
+../Src/uart.c:312:5:uart2_rx_leer	4
+../Src/uart.c:331:13:uart_set_baudrate	1
+../Src/uart.c:335:17:compute_uart_bd	1

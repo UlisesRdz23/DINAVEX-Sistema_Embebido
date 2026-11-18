@@ -1,0 +1,7 @@
+../Src/ZLAC8015.c:35:10:calculo_CRC	4
+../Src/ZLAC8015.c:53:6:ZLAC8015_Minit	1
+../Src/ZLAC8015.c:65:6:ZLAC8015_read	2
+../Src/ZLAC8015.c:88:6:ZLAC8015_write	2
+../Src/ZLAC8015.c:111:6:conv_a_cadenaC	1
+../Src/ZLAC8015.c:117:7:conv_a_RPM	1
+../Src/ZLAC8015.c:127:7:conv_a_voltaje	1
